@@ -12,7 +12,7 @@ verifiable layer such as VLANs, routing, services, security, redundancy, VoIP, Q
 monitoring, troubleshooting, and performance evaluation. The final delivery will combine these
 layers into one tested central-office and branch-network scenario.
 
-**Project status:** Sprint roadmap ready — Sprint 00-00 is next.
+**Project status:** Sprint 00-00 completed — Sprint 00-01 is next.
 
 ## Planned Scope
 
@@ -74,13 +74,18 @@ tests/       connectivity, failure, security, and performance cases
 reports/     validation evidence and final reports
 ```
 
-## First Sprint
+## Current Progress
 
-**Sprint 00-00 — Requirements and Architecture Contract**
+**Completed:** Sprint 00-00 — Requirements and Architecture Contract
 
-The first sprint will define the central site, branches, server, management, guest, and voice
-network requirements; device inventory; naming rules; Packet Tracer version; success criteria;
-and the initial logical/physical architecture.
+Sprint 00-00 defines the central site and two-branch planning baseline, capacity assumptions,
+VLAN/address plan, logical architecture, device inventory, Packet Tracer 9.0.x authoring policy,
+security boundaries, risks, and acceptance evidence.
+
+**Next:** Sprint 00-01 — Basic LAN and IPv4 Addressing
+
+See [docs/sprints/sprint-00-00/README.md](docs/sprints/sprint-00-00/README.md) for the completed
+requirements baseline.
 
 ## Notes
 

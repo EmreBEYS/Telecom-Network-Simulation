@@ -1,0 +1,22 @@
+site,vlan_id,vlan_name,ipv4_subnet,default_gateway,usable_hosts,addressing,notes
+HQ,10,MGMT,10.10.10.0/24,10.10.10.1,254,Static,Infrastructure management
+HQ,20,STAFF,10.10.20.0/24,10.10.20.1,254,DHCP,HQ employee clients
+HQ,30,VOICE,10.10.30.0/24,10.10.30.1,254,DHCP,IP phones
+HQ,40,SERVER,10.10.40.0/24,10.10.40.1,254,Static,Application servers
+HQ,50,GUEST,10.10.50.0/24,10.10.50.1,254,DHCP,Internet-only guest access
+HQ,60,NET-SVC,10.10.60.0/24,10.10.60.1,254,Static,DHCP DNS NTP Syslog SNMP
+HQ,999,NATIVE-BLACKHOLE,N/A,N/A,0,None,No SVI or user access
+BRA,10,MGMT,10.20.10.0/24,10.20.10.1,254,Static,Branch A management
+BRA,20,STAFF,10.20.20.0/24,10.20.20.1,254,DHCP,Branch A employee clients
+BRA,30,VOICE,10.20.30.0/24,10.20.30.1,254,DHCP,Branch A IP phones
+BRA,50,GUEST,10.20.50.0/24,10.20.50.1,254,DHCP,Branch A guest access
+BRA,999,NATIVE-BLACKHOLE,N/A,N/A,0,None,No SVI or user access
+BRB,10,MGMT,10.30.10.0/24,10.30.10.1,254,Static,Branch B management
+BRB,20,STAFF,10.30.20.0/24,10.30.20.1,254,DHCP,Branch B employee clients
+BRB,30,VOICE,10.30.30.0/24,10.30.30.1,254,DHCP,Branch B IP phones
+BRB,50,GUEST,10.30.50.0/24,10.30.50.1,254,DHCP,Branch B guest access
+BRB,999,NATIVE-BLACKHOLE,N/A,N/A,0,None,No SVI or user access
+WAN,N/A,HQ-BRA,10.255.0.0/30,N/A,2,Static,Point-to-point transit
+WAN,N/A,HQ-BRB,10.255.0.4/30,N/A,2,Static,Point-to-point transit
+WAN,N/A,HQ-ISP,10.255.0.8/30,N/A,2,Static,Simulated internet transit
+LOOPBACK,N/A,ROUTER-ID,10.254.0.0/24,N/A,254,Static,Allocate one /32 per router

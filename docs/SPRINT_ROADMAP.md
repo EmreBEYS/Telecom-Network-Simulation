@@ -64,6 +64,8 @@ klasörü altında birbirine bağlanmalıdır.
 
 ### Sprint 00-00 — Gereksinimler ve Mimari Sözleşme
 
+**Durum:** Tamamlandı — 23 Kasım 2026
+
 **Amaç:** Projenin kapsamını, kullanıcılarını ve teknik sınırlarını belirlemek.
 
 **Görevler:**

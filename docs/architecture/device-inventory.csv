@@ -1,0 +1,21 @@
+device_id,site,role,packet_tracer_model,initial_quantity,target_quantity,purpose,planned_sprint
+ISP-RTR-01,ISP,ISP router,ISR 4331,1,1,Internet simulation and default route,00-01
+HQ-RTR-01,HQ,Edge/WAN router,ISR 4331,1,1,Internet and branch routing,00-01
+HQ-DSW-01,HQ,Distribution switch,Catalyst 3560,1,1,Inter-VLAN routing and STP root,00-03
+HQ-DSW-02,HQ,Distribution switch,Catalyst 3560,0,1,Gateway and distribution redundancy,00-08
+HQ-ASW-01,HQ,Access switch,Catalyst 2960,1,2,Staff voice and guest access,00-01
+HQ-SRV-01,HQ,Server,Packet Tracer Server,1,4,DHCP DNS NTP logging and application services,00-06
+HQ-PC-MGMT-01,HQ,Management client,Packet Tracer PC,1,1,Authorized device management,00-01
+HQ-PC-STAFF,HQ,Representative staff clients,Packet Tracer PC,3,3,Staff access tests,00-01
+HQ-PC-GUEST,HQ,Representative guest clients,Packet Tracer Laptop,1,2,Guest isolation tests,00-02
+HQ-PHONE,HQ,Representative IP phones,Cisco IP Phone,0,3,Voice VLAN and call tests,00-09
+BRA-RTR-01,BRA,Branch router,ISR 4321,1,1,HQ WAN connection,00-04
+BRA-ASW-01,BRA,Access switch,Catalyst 2960,1,1,Branch staff voice and guest access,00-04
+BRA-PC-STAFF,BRA,Representative staff clients,Packet Tracer PC,2,2,Branch connectivity tests,00-04
+BRA-PC-GUEST,BRA,Representative guest client,Packet Tracer Laptop,1,1,Guest isolation tests,00-07
+BRA-PHONE,BRA,Representative IP phones,Cisco IP Phone,0,2,Branch voice tests,00-09
+BRB-RTR-01,BRB,Branch router,ISR 4321,1,1,HQ WAN connection,00-04
+BRB-ASW-01,BRB,Access switch,Catalyst 2960,1,1,Branch staff voice and guest access,00-04
+BRB-PC-STAFF,BRB,Representative staff clients,Packet Tracer PC,2,2,Branch connectivity tests,00-04
+BRB-PC-GUEST,BRB,Representative guest client,Packet Tracer Laptop,1,1,Guest isolation tests,00-07
+BRB-PHONE,BRB,Representative IP phones,Cisco IP Phone,0,2,Branch voice tests,00-09
